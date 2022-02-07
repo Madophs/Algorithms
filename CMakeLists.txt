@@ -17,6 +17,9 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 INCLUDE(GoogleTest)
+INCLUDE_DIRECTORIES(
+    ${CMAKE_SOURCE_DIR}/test
+    )
 
 ADD_SUBDIRECTORY(math)
 ADD_SUBDIRECTORY(test)
