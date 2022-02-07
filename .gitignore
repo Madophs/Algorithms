@@ -13,3 +13,4 @@ build
 .clangd
 main.cpp
 a.out
+*.cmake
