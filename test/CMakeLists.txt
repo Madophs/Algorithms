@@ -1,2 +1,3 @@
-ADD_SUBDIRECTORY(math)
-ADD_SUBDIRECTORY(utils)
+add_subdirectory(math)
+add_subdirectory(dynamic_programming)
+add_subdirectory(utils)

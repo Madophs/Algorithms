@@ -14,3 +14,5 @@ build
 main.cpp
 a.out
 *.cmake
+*.gch
+.cache/
